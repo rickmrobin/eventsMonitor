@@ -1,5 +1,5 @@
 PODS:
-  - eventsMonitor (0.1.0)
+  - eventsMonitor (1.0.1)
 
 DEPENDENCIES:
   - eventsMonitor (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  eventsMonitor: c2d281cf6ff168b45c2552c396fe9de16efe8585
+  eventsMonitor: 627dd6d31bfdc15dc511008f999ebe6748443656
 
-PODFILE CHECKSUM: 7b4dbcb95930aa7454949a3792e723e1a0d2d96f
+PODFILE CHECKSUM: 260845fed20629ba456170140c0c91e19b515f70
 
 COCOAPODS: 1.11.3
