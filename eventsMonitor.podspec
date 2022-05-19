@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eventsMonitor'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A library to capture every user action and analyse the user experience of the app.'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      =  'A library to capture every user action and analyse the user experience of the app.'
+  s.description      =  'Capture every touch events and get user analysis report to track the user experience behaviour and get the system improved by results.'
 
-  s.homepage         = 'https://github.com/rickmrobin@gmail.com/eventsMonitor'
+  s.homepage         = 'https://www.google.com/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rickmrobin@gmail.com' => 'Maria.Robin' }
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'eventsMonitor/Classes/**/*'
   
-  s.resource_bundles = {'eventsMonitor' => ['eventsMonitor/*.xcdatamodeld']}
+  s.resource_bundles = {'eventsMonitor' => ['eventsMonitor/**/*.{xcdatamodeld}']}
  
 #
   # s.resource_bundles = {
