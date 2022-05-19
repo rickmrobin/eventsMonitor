@@ -1,0 +1,22 @@
+{
+  "name": "eventsMonitor",
+  "version": "0.1.0",
+  "summary": "A short description of eventsMonitor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rickmrobin@gmail.com/eventsMonitor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rickmrobin@gmail.com": "Maria.Robin"
+  },
+  "source": {
+    "git": "https://github.com/rickmrobin@gmail.com/eventsMonitor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "eventsMonitor/Classes/**/*"
+}

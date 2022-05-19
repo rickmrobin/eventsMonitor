@@ -1,0 +1,6 @@
+framework module Pods_eventsMonitor_Example {
+  umbrella header "Pods-eventsMonitor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

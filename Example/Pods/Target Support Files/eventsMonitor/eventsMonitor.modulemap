@@ -1,0 +1,6 @@
+framework module eventsMonitor {
+  umbrella header "eventsMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

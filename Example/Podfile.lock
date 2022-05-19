@@ -1,0 +1,16 @@
+PODS:
+  - eventsMonitor (0.1.0)
+
+DEPENDENCIES:
+  - eventsMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  eventsMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  eventsMonitor: c2d281cf6ff168b45c2552c396fe9de16efe8585
+
+PODFILE CHECKSUM: 7b4dbcb95930aa7454949a3792e723e1a0d2d96f
+
+COCOAPODS: 1.11.3
