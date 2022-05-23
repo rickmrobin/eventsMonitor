@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BE380D59AFEF663A8C989696F48511F /* EventsModel.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = DB3624A05CCF4D275CBBCDC7462B1EC6 /* EventsModel.xcdatamodeld */; };
 		3F8A4D0F3312FAE3782431BD34F7B614 /* eventsMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF861F018EFE2AF27EE62BC360DBDA /* eventsMonitor-dummy.m */; };
 		745183D7D81EDFF56AADC57AA74BC350 /* Pods-eventsMonitor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7907338D50935D73150D2CD99D7892C /* Pods-eventsMonitor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78873317E407CAE62947D4DCFB0B1A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -18,6 +17,11 @@
 		DACA14B54355594E15AD7E61106AB841 /* eventsMonitor-eventsMonitor in Resources */ = {isa = PBXBuildFile; fileRef = 07A19D635B72E3D789316701AF67F97E /* eventsMonitor-eventsMonitor */; };
 		DF4442A10A205F7FE424F51D2A7CD84C /* Pods-eventsMonitor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D5E9578E39E06960362F796EE36177 /* Pods-eventsMonitor_Tests-dummy.m */; };
 		E27ED4DB22801CB36E3B9BF6E8360743 /* Pods-eventsMonitor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23292C5460402FC91D33C8C1C32BB304 /* Pods-eventsMonitor_Example-dummy.m */; };
+		EE108017283B87350007BBBE /* EventsMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE108016283B87350007BBBE /* EventsMonitor.swift */; };
+		EE108019283B87680007BBBE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE108018283B87680007BBBE /* CoreDataManager.swift */; };
+		EE10801B283B87970007BBBE /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10801A283B87970007BBBE /* LocationRequest.swift */; };
+		EE10801E283B87FD0007BBBE /* EventsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE10801C283B87FD0007BBBE /* EventsModel.xcdatamodeld */; };
+		EE108020283BA02B0007BBBE /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10801F283BA02B0007BBBE /* BackgroundTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004C6A3E32178CABA497732B62977E22 /* eventsMonitor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eventsMonitor; path = eventsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		004C6A3E32178CABA497732B62977E22 /* eventsMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = eventsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A19D635B72E3D789316701AF67F97E /* eventsMonitor-eventsMonitor */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "eventsMonitor-eventsMonitor"; path = eventsMonitor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		23292C5460402FC91D33C8C1C32BB304 /* Pods-eventsMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eventsMonitor_Example-dummy.m"; sourceTree = "<group>"; };
 		316874DB224A07D14F9E46D4A49754B8 /* ResourceBundle-eventsMonitor-eventsMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-eventsMonitor-eventsMonitor-Info.plist"; sourceTree = "<group>"; };
@@ -63,7 +67,6 @@
 		88D5E9578E39E06960362F796EE36177 /* Pods-eventsMonitor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eventsMonitor_Tests-dummy.m"; sourceTree = "<group>"; };
 		88DF861F018EFE2AF27EE62BC360DBDA /* eventsMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "eventsMonitor-dummy.m"; sourceTree = "<group>"; };
 		8D9B248F065C0CC798AD3A3015E83702 /* Pods-eventsMonitor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eventsMonitor_Tests-Info.plist"; sourceTree = "<group>"; };
-		981A0CAA9B74D578BB0E7082CEBA1F85 /* EventsModel.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = EventsModel.xcdatamodel; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1AD61FCBC59A00142DF9894E2D18C1 /* eventsMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eventsMonitor.release.xcconfig; sourceTree = "<group>"; };
 		9F201191A7D8208FD1EAFE717571F9DE /* Pods-eventsMonitor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eventsMonitor_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -79,6 +82,11 @@
 		E5A895E944E081A24A09899EAA703C5E /* Pods-eventsMonitor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-eventsMonitor_Tests"; path = Pods_eventsMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84431ABA0928361AC497A4C8A17CF7E /* Pods-eventsMonitor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eventsMonitor_Example-Info.plist"; sourceTree = "<group>"; };
 		ECDA64CC2A9A2C3D65E4591536D466AD /* Pods-eventsMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eventsMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE108016283B87350007BBBE /* EventsMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventsMonitor.swift; path = eventsMonitor/Classes/EventsMonitor.swift; sourceTree = "<group>"; };
+		EE108018283B87680007BBBE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = eventsMonitor/Classes/CoreDataManager.swift; sourceTree = "<group>"; };
+		EE10801A283B87970007BBBE /* LocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationRequest.swift; path = eventsMonitor/Classes/LocationRequest.swift; sourceTree = "<group>"; };
+		EE10801D283B87FD0007BBBE /* EventsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsModel.xcdatamodel; sourceTree = "<group>"; };
+		EE10801F283BA02B0007BBBE /* BackgroundTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackgroundTask.swift; path = eventsMonitor/Classes/BackgroundTask.swift; sourceTree = "<group>"; };
 		F679BAB0B6BFDCFACB44FEF25F24C0CB /* eventsMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eventsMonitor.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +128,7 @@
 		153B254218FAA93824F181C2D9D249EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				004C6A3E32178CABA497732B62977E22 /* eventsMonitor */,
+				004C6A3E32178CABA497732B62977E22 /* eventsMonitor.framework */,
 				07A19D635B72E3D789316701AF67F97E /* eventsMonitor-eventsMonitor */,
 				4474F500A6A4DE36BDB03A4EFCE80756 /* Pods-eventsMonitor_Example */,
 				E5A895E944E081A24A09899EAA703C5E /* Pods-eventsMonitor_Tests */,
@@ -165,9 +173,13 @@
 		70E9B9F78BA08D91121F0805601063D0 /* eventsMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				DB3624A05CCF4D275CBBCDC7462B1EC6 /* EventsModel.xcdatamodeld */,
 				DB632F95748874B0B4DB3364EBFD6954 /* Pod */,
 				A8D5D47F611643642291FB95A72B44A1 /* Support Files */,
+				EE108016283B87350007BBBE /* EventsMonitor.swift */,
+				EE108018283B87680007BBBE /* CoreDataManager.swift */,
+				EE10801A283B87970007BBBE /* LocationRequest.swift */,
+				EE10801C283B87FD0007BBBE /* EventsModel.xcdatamodeld */,
+				EE10801F283BA02B0007BBBE /* BackgroundTask.swift */,
 			);
 			name = eventsMonitor;
 			path = ../..;
@@ -324,7 +336,7 @@
 			);
 			name = eventsMonitor;
 			productName = eventsMonitor;
-			productReference = 004C6A3E32178CABA497732B62977E22 /* eventsMonitor */;
+			productReference = 004C6A3E32178CABA497732B62977E22 /* eventsMonitor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7AD9475552C4F17100693076151CC174 /* Pods-eventsMonitor_Example */ = {
@@ -354,6 +366,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6DA18DD16CC22CB1D8A3BC57F140CE1A = {
+						LastSwiftMigration = 1330;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -395,7 +412,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE380D59AFEF663A8C989696F48511F /* EventsModel.xcdatamodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +453,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE108020283BA02B0007BBBE /* BackgroundTask.swift in Sources */,
+				EE108019283B87680007BBBE /* CoreDataManager.swift in Sources */,
 				3F8A4D0F3312FAE3782431BD34F7B614 /* eventsMonitor-dummy.m in Sources */,
+				EE10801E283B87FD0007BBBE /* EventsModel.xcdatamodeld in Sources */,
+				EE10801B283B87970007BBBE /* LocationRequest.swift in Sources */,
+				EE108017283B87350007BBBE /* EventsMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +491,7 @@
 			baseConfigurationReference = 9E1AD61FCBC59A00142DF9894E2D18C1 /* eventsMonitor.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -589,6 +611,7 @@
 			baseConfigurationReference = F679BAB0B6BFDCFACB44FEF25F24C0CB /* eventsMonitor.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -609,6 +632,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -880,12 +904,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DB3624A05CCF4D275CBBCDC7462B1EC6 /* EventsModel.xcdatamodeld */ = {
+		EE10801C283B87FD0007BBBE /* EventsModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				981A0CAA9B74D578BB0E7082CEBA1F85 /* EventsModel.xcdatamodel */,
+				EE10801D283B87FD0007BBBE /* EventsModel.xcdatamodel */,
 			);
-			currentVersion = 981A0CAA9B74D578BB0E7082CEBA1F85 /* EventsModel.xcdatamodel */;
+			currentVersion = EE10801D283B87FD0007BBBE /* EventsModel.xcdatamodel */;
 			name = EventsModel.xcdatamodeld;
 			path = eventsMonitor/Assets/EventsModel.xcdatamodeld;
 			sourceTree = "<group>";
